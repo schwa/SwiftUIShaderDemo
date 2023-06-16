@@ -12,7 +12,7 @@ struct ContentView: View {
                 //Text("\(context.date.timeIntervalSince1970)").monospaced()
                 Color.black
                 .layerEffect(shader(context.date.timeIntervalSince1970), maxSampleOffset: .zero)
-                .frame(width: 256, height: 256).font(.title).bold()
+                .frame(width: 256, height: 256)
                 Text("\(context.date.timeIntervalSince1970)").monospaced()
             }
         }
